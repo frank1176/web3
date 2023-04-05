@@ -13,9 +13,10 @@
       <div class="col-md-8">
         <div class="card mb-4">
           <div class="card-header py-3">
-            <h4 class="mb-0">Cart - 2 items</h4>
-
-              <h6></h6>
+              <div class="row">
+          <div class="col">  <h4 class="mb-0">Cart - 2 items</h4></div>
+              <div class="col-md-2"> <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/Menu.aspx" BorderColor="#FF3300">Add more item</asp:HyperLink></div>
+             </div>
           </div>
              <!-- Address -->
             
@@ -26,19 +27,37 @@
 
 
             <p class="mb-0">Kiongho address</p>
+                  <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#myModal">
+  Open modal
+</button>
 
-              <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
+<!-- The Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
     <div class="modal-content">
-      ...
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Modal Heading</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        Modal body..
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      </div>
+
     </div>
   </div>
 </div>
 
-</div>
-                    <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Large modal</button>
-</div>
+
+                  </div>
         </div>
        </div>    
                 
@@ -65,11 +84,13 @@
                 <p>Size: M</p>
                 <button type="button" class="btn btn-primary btn-sm me-1 mb-2" data-mdb-toggle="tooltip"
                   title="Remove item">
-                  <i class="fas fa-trash"></i>
+                  <i class="fas fa-edit"></i>
+                    <asp:HyperLink ID="HyperLink1" runat="server">Edit Item</asp:HyperLink>
                 </button>
                 <button type="button" class="btn btn-danger btn-sm mb-2" data-mdb-toggle="tooltip"
                   title="Move to the wish list">
-                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-trash"></i>
+                    <asp:HyperLink ID="HyperLink2" runat="server">Remove Item</asp:HyperLink>
                 </button>
                 <!-- Data -->
               </div>
@@ -127,11 +148,14 @@
 
                 <button type="button" class="btn btn-primary btn-sm me-1 mb-2" data-mdb-toggle="tooltip"
                   title="Remove item">
-                  <i class="fas fa-trash"></i>
+                  <i class="fas fa-edit"></i>
+                    <asp:HyperLink ID="HyperLink3" runat="server">Edit Item</asp:HyperLink>
                 </button>
                 <button type="button" class="btn btn-danger btn-sm mb-2" data-mdb-toggle="tooltip"
                   title="Move to the wish list">
-                  <i class="fas fa-heart"></i>
+                   
+                  <i class="fas fa-trash"></i>
+                     <asp:HyperLink ID="HyperLink4" runat="server">Remove Item</asp:HyperLink>
                 </button>
                 <!-- Data -->
               </div>
@@ -171,52 +195,59 @@
         <div class="card mb-4 mb-lg-0">
           <div class="card-body">
             <p><strong>We accept</strong></p>
+               <img class="me-2" width="45px"
+              src="asset/cash.png"
+              alt="Cash" />
             <img class="me-2" width="45px"
               src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce-gateway-stripe/assets/images/visa.svg"
-              alt="Visa" />
+              alt="VisaCard" />
             <img class="me-2" width="45px"
-              src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce-gateway-stripe/assets/images/amex.svg"
-              alt="American Express" />
+              src="asset/tng.png"
+              alt="Touch N Go" />
             <img class="me-2" width="45px"
               src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce-gateway-stripe/assets/images/mastercard.svg"
               alt="Mastercard" />
-            <img class="me-2" width="45px"
-              src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce/includes/gateways/paypal/assets/images/paypal.webp"
-              alt="PayPal acceptance mark" />
+            
           </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="card mb-4">
           <div class="card-header py-3">
-            <h5 class="mb-0">Summary</h5>
+            <h5 class="mb-0">Total</h5>
           </div>
           <div class="card-body">
             <ul class="list-group list-group-flush">
               <li
                 class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-0">
                 Products
-                <span>$53.98</span>
+                <span>RM53.98</span>
+              </li>
+                 <li
+                class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-0">
+                Products2
+                <span>RM0.00</span>
               </li>
               <li class="list-group-item d-flex justify-content-between align-items-center px-0">
-                Shipping
-                <span>Gratis</span>
+                Deivery Fee
+                <span>RM4.00</span>
               </li>
               <li
                 class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 mb-3">
                 <div>
-                  <strong>Total amount</strong>
+                  <strong>Total Amount</strong>
                   <strong>
-                    <p class="mb-0">(including VAT)</p>
+                    <p class="mb-0">(incl. SST)</p>
                   </strong>
                 </div>
-                <span><strong>$53.98</strong></span>
+                <span><strong>RM57.98</strong></span>
               </li>
             </ul>
-
-            <button type="button" class="btn btn-primary btn-lg btn-block">
-              Go to checkout
+               
+            <button type="button" class="btn btn-primary btn-lg btn-block" onclick="document.location='CheckOut.aspx'">
+             Review Payment & Address
             </button>
+                   
           </div>
         </div>
       </div>
