@@ -42,7 +42,7 @@
                                     <a class="nav-link" href="#">About Us</a>
                               </li>
                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Track Order</a>
+                                    <a class="nav-link" href="Delivery.aspx">Track Order</a>
                               </li>
                           </ul>
 
@@ -61,7 +61,7 @@
                                 
                                   <a class="nav-link" href="#">
                                         <i class="fa-solid fa-cart-shopping fa-xl" style="color: #ffffff;"></i>
-                                      <span>Cart</span>
+                                      <span onclick="document.location='Cart.aspx'">Cart</span>
                                   </a>
                              </li>
                              

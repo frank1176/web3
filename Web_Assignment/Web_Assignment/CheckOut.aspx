@@ -28,12 +28,12 @@
 
 
                                 <p class="mb-0">Kiongho address</p>
-                                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#myModal">
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#Address">
                                     Open modal
                                 </button>
 
                                 <!-- The Modal -->
-                                <div class="modal" id="myModal">
+                                <div class="modal" id="Address">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
 
@@ -228,14 +228,85 @@
                             </li>
                         </ul>
 
-                        <button type="button" class="btn btn-primary btn-lg btn-block" onclick="document.location='Home.aspx'">
-                            Check Out
-                        </button>
 
-                    </div>
+
+                        <button type="button" class="btn btn-primary btn-lg btn-block" data-bs-toggle="modal" data-bs-target="#Receipt">
+                                    Check Out
+                                </button>
+<!--example-->
+ <!-- The Modal -->
+                               <div class="modal" id="Receipt" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body ">
+                <div class="text-right"> <i class="fa fa-close close" data-dismiss="modal"></i> </div>
+                
+                <div class="px-4 py-5">
+
+                    <h5 class="text-uppercase">Account Name</h5>
+
+
+
+                <h4 class="mt-5 theme-color mb-5">Thanks for your order</h4>
+
+                <span class="theme-color">Payment Summary</span>
+                <div class="mb-3">
+                    <hr class="new1">
                 </div>
+
+                <div class="d-flex justify-content-between">
+                    <span class="font-weight-bold">Product(Qty:1)</span>
+                    <span class="text-muted">$53.98</span>
+                </div>
+
+                   <div class="d-flex justify-content-between">
+                    <span class="font-weight-bold">Product2(Qty:1)</span>
+                    <span class="text-muted">$1750.00</span>
+                </div>
+
+                <div class="d-flex justify-content-between">
+                    <small>Delivery Fee</small>
+                    <small>$4.00</small>
+                </div>
+
+
+                <div class="d-flex justify-content-between">
+                    <small>Tax</small>
+                    <small>$0.00</small>
+                </div>
+                
+                <div class="d-flex justify-content-between mt-3">
+                    <span class="font-weight-bold">Total</span>
+                    <span class="font-weight-bold theme-color">$57.98</span>
+                </div>  
+
+
+
+                <div class="text-center mt-5">
+
+
+                    <button class="btn btn-primary" onclick="document.location='Delivery.aspx'">Track your order</button>
+                    
+
+
+                </div>                   
+
+                </div>
+
+
             </div>
         </div>
     </div>
+</div>
+
+                       
+<!--example-->
+
+            </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    
 </section>
 </asp:Content>

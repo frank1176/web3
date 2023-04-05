@@ -27,12 +27,12 @@
 
 
             <p class="mb-0">Kiongho address</p>
-                  <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#myModal">
-  Open modal
+                  <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#Address">
+ Change Address
 </button>
 
 <!-- The Modal -->
-<div class="modal" id="myModal">
+<div class="modal" id="Address">
   <div class="modal-dialog">
     <div class="modal-content">
 
@@ -97,21 +97,26 @@
 
               <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
                 <!-- Quantity -->
-                <div class="d-flex mb-4" style="max-width: 300px">
-                  <button class="btn btn-primary px-3 me-2"
+                <div class="d-flex mb-2" style="max-width: 300px">
+                  <button class="btn btn-link px-3 me-4"
                     onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
                     <i class="fas fa-minus"></i>
                   </button>
 
-                  <div class="form-outline">
-                    <input id="form1" min="0" name="quantity" value="1" type="number" class="form-control" />
-                    <label class="form-label" for="form1">Quantity</label>
-                  </div>
+                 
+                    <input id="form2" min="1" name="quantity" value="1" type="number" class="form-control" />
+                    <label class="form-label" for="form2"></label>
+                 
 
-                  <button class="btn btn-primary px-3 ms-2"
+                  <button class="btn btn-link px-3 ms-2"
                     onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
                     <i class="fas fa-plus"></i>
+
                   </button>
+
+
+                   
+
                 </div>
                 <!-- Quantity -->
 
@@ -142,10 +147,10 @@
 
               <div class="col-lg-5 col-md-6 mb-4 mb-lg-0">
                 <!-- Data -->
-                <p><strong>Red hoodie</strong></p>
-                <p>Color: red</p>
-                <p>Size: M</p>
-
+                <p><strong>2-pieces chicken</strong></p>
+                <p>Donut x 1 </p>
+                <p>Burger x 1</p>
+                  <p>Coca-cola x 1</p>
                 <button type="button" class="btn btn-primary btn-sm me-1 mb-2" data-mdb-toggle="tooltip"
                   title="Remove item">
                   <i class="fas fa-edit"></i>
@@ -163,19 +168,20 @@
               <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
                 <!-- Quantity -->
                 <div class="d-flex mb-4" style="max-width: 300px">
-                  <button class="btn btn-primary px-3 me-2"
+                    <button class="btn btn-link px-3 me-4"
                     onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
                     <i class="fas fa-minus"></i>
                   </button>
 
-                  <div class="form-outline">
-                    <input id="form1" min="0" name="quantity" value="1" type="number" class="form-control" />
-                    <label class="form-label" for="form1">Quantity</label>
-                  </div>
+                 
+                    <input id="form1" min="1" name="quantity" value="1" type="number" class="form-control" />
+                    <label class="form-label" for="form1"></label>
+                 
 
-                  <button class="btn btn-primary px-3 ms-2"
+                  <button class="btn btn-link px-3 ms-2"
                     onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
                     <i class="fas fa-plus"></i>
+
                   </button>
                 </div>
                 <!-- Quantity -->
@@ -229,7 +235,7 @@
                 <span>RM0.00</span>
               </li>
               <li class="list-group-item d-flex justify-content-between align-items-center px-0">
-                Deivery Fee
+                Delivery Fee
                 <span>RM4.00</span>
               </li>
               <li
