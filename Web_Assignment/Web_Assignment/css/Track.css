@@ -4,13 +4,10 @@
     line-height: 1.8;
 }
 
-.modal-footer {
-    border-top: none;
-}
-
 
 .table td, .table th {
     vertical-align: middle;
+    text-align: center;
 }
 
 .table th {
@@ -33,3 +30,13 @@
     .order-details-link:hover {
         color: #0d6efd;
     }
+/* Modal styles */
+.modal-header {
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+.modal-footer {
+    border-top: none;
+    background-color: #f9f9f9;
+}

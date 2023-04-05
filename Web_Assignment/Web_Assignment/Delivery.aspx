@@ -4,7 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
      <link href="css/Track.css" rel="stylesheet" type="text/css" media="all"/>
 
-  <div>
+  
  
     <title>Delivery Order Tracking</title>
     <!-- Load Bootstrap CSS -->
@@ -13,9 +13,9 @@
        <div class="container">
       <h1 class="text-center mb-4">Order Status</h1>
       <div class="card mt-4">
-        <div class="card-body">
+        <div class="card-body bg-light">
           <h5 class="card-title">Order #123456</h5>
-          <p class="card-text">Your order is being processed and will be shipped soon.</p>
+          <p class="card-text">Your order is being processed and will be delivered soon.</p>
           <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#orderDetailsModal">View Order Details</button>
         </div>
       </div>
@@ -78,9 +78,11 @@
         </tbody>
       </table>
       <div class="text-center mt-4">
-        <a href="#" class="btn btn-primary" onclick="document.location='Home.aspx'">Back to Home</a>
+        <a href="Home.aspx" class="btn btn-primary" onclick="document.location='Home.aspx'">Back to Home</a>
       </div>
-    <%--</div>--%>
+
+
+    </div>
 
     <!-- Load Bootstrap JS and jQuery -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
