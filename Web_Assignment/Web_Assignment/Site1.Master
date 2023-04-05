@@ -26,7 +26,7 @@
         <div>
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                  <div class="container-fluid">
-                     <img src="asset/firechicken.png" width="85" height="85" />
+                     <a href="Home.aspx"><img src="asset/firechicken.png" width="85" height="85" /></a>
                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                           <span class="navbar-toggler-icon"></span>
                      </button>
@@ -49,7 +49,7 @@
                          <ul class="navbar-nav">
                                
                              <li class="nav-item">
-                                 <a class="nav-link" href="#">
+                                 <a class="nav-link" href="Login.aspx">
                                      <i class="fa-regular fa-user fa-xl" style="color: #ffffff;"></i>
                                      <span>Login</span>
                                  </a>
@@ -59,9 +59,9 @@
                           
                              <li class="nav-item">
                                 
-                                  <a class="nav-link" href="#">
+                                  <a class="nav-link" href="Cart.aspx">
                                         <i class="fa-solid fa-cart-shopping fa-xl" style="color: #ffffff;"></i>
-                                      <span onclick="document.location='Cart.aspx'">Cart</span>
+                                      <span>Cart</span>
                                   </a>
                              </li>
                              
