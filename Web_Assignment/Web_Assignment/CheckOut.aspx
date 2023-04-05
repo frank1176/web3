@@ -203,7 +203,7 @@
                     <div class="card-header py-3">
                         <h5 class="mb-0">Total</h5>
                     </div>
-                    <div class="card-body">
+                    <div class="card-body bg-light">
                         <ul class="list-group list-group-flush">
                             <li
                                 class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-0">Products
@@ -239,7 +239,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-body ">
-                <div class="text-right"> <i class="fa fa-close close" data-dismiss="modal"></i> </div>
+                <div class="text-right">  <button type="button" class="btn-close" data-bs-dismiss="modal" onclick="document.location='Home.aspx'"></button> </div>
                 
                 <div class="px-4 py-5">
 
