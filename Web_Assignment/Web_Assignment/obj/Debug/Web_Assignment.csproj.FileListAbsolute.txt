@@ -179,3 +179,13 @@ C:\Users\yuton\OneDrive\Documents\GitHub\web3\Web_Assignment\Web_Assignment\obj\
 C:\Users\yuton\OneDrive\Documents\GitHub\web3\Web_Assignment\Web_Assignment\obj\Debug\Web_Assignment.csproj.CoreCompileInputs.cache
 C:\Users\yuton\OneDrive\Documents\GitHub\web3\Web_Assignment\Web_Assignment\obj\Debug\Web_Assignment.dll
 C:\Users\yuton\OneDrive\Documents\GitHub\web3\Web_Assignment\Web_Assignment\obj\Debug\Web_Assignment.pdb
+D:\TARC\web3\Web_Assignment\Web_Assignment\bin\Web_Assignment.dll.config
+D:\TARC\web3\Web_Assignment\Web_Assignment\bin\Web_Assignment.dll
+D:\TARC\web3\Web_Assignment\Web_Assignment\bin\Web_Assignment.pdb
+D:\TARC\web3\Web_Assignment\Web_Assignment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\TARC\web3\Web_Assignment\Web_Assignment\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\TARC\web3\Web_Assignment\Web_Assignment\obj\Debug\Web_Assignment.csproj.AssemblyReference.cache
+D:\TARC\web3\Web_Assignment\Web_Assignment\obj\Debug\Web_Assignment.csproj.CoreCompileInputs.cache
+D:\TARC\web3\Web_Assignment\Web_Assignment\obj\Debug\Web_Assignment.csproj.CopyComplete
+D:\TARC\web3\Web_Assignment\Web_Assignment\obj\Debug\Web_Assignment.dll
+D:\TARC\web3\Web_Assignment\Web_Assignment\obj\Debug\Web_Assignment.pdb
