@@ -16,7 +16,7 @@
         </div>
     
     <div class="container-fluid">
-        <table class="table table-striped table-borderless">
+        <table class="table table-striped table-borderless table-responsive">
             <thead>
             <tr>
                 <th scope="col">Order ID</th>

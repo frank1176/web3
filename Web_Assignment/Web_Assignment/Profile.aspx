@@ -113,6 +113,12 @@
                         <asp:LinkButton ID="LinkButton4" class="lb lb4" runat="server">Change password</asp:LinkButton>
                     </td>
                 </tr>
+                <tr>
+                    <td class="auto-style16">
+            
+                        <asp:LinkButton ID="LinkButton5" class="lb lb4" runat="server" PostBackUrl="~/Admin/DashBoard.aspx">Admin</asp:LinkButton>
+                    </td>
+                </tr>
             </table>
         </div>
 
