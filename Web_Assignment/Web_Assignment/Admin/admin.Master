@@ -65,7 +65,7 @@
                                             <i class="bi bi-shop"></i><span class="d-none d-sm-inline">Update Product</span></a>
                                     </li>
                                     <li>
-                                        <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span></a>
+                                        <a href="ProductList.aspx" class="nav-link px-0"><i class="bi bi-card-list"></i> <span class="d-none d-sm-inline">Product List</span></a>
                                     </li>
                                  
                                 </ul>
@@ -93,7 +93,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col py-3 p-3 mb-2 bg-secondary text-white">
+                <div class="col py-3 p-3 mb-2 bg-secondary-subtle text-secondary">
                       <!--Content Here-->
                     <div>
                         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
