@@ -175,3 +175,7 @@ D:\0. Y2S3 Course\web3\web3\Web_Assignment\Web_Assignment\obj\Debug\Web_Assignme
 D:\0. Y2S3 Course\web3\web3\Web_Assignment\Web_Assignment\obj\Debug\Web_Assignment.csproj.CopyComplete
 D:\0. Y2S3 Course\web3\web3\Web_Assignment\Web_Assignment\obj\Debug\Web_Assignment.dll
 D:\0. Y2S3 Course\web3\web3\Web_Assignment\Web_Assignment\obj\Debug\Web_Assignment.pdb
+C:\Users\yuton\OneDrive\Documents\GitHub\web3\Web_Assignment\Web_Assignment\obj\Debug\Web_Assignment.csproj.AssemblyReference.cache
+C:\Users\yuton\OneDrive\Documents\GitHub\web3\Web_Assignment\Web_Assignment\obj\Debug\Web_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\yuton\OneDrive\Documents\GitHub\web3\Web_Assignment\Web_Assignment\obj\Debug\Web_Assignment.dll
+C:\Users\yuton\OneDrive\Documents\GitHub\web3\Web_Assignment\Web_Assignment\obj\Debug\Web_Assignment.pdb
