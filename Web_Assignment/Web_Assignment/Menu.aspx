@@ -1,8 +1,11 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Menu.aspx.cs" Inherits="Web_Assignment.WebForm2" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <title>Menu</title>
     <link href="css/Menu.css" rel="stylesheet" />
+    
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    
         <div class="menu_class">
       <h2>LIMITED TIME ONLY</h2>
 
@@ -83,7 +86,7 @@
 
     </div>
 
-    <--!FAMILY BUCKETS-->
+    <!--FAMILY BUCKETS-->
             <div class="menu_class">
       <h2>FAMILY BUCKETS</h2>
 
