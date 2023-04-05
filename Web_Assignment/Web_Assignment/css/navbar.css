@@ -6,7 +6,7 @@ footer p {
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-    background-color: red;
+    background-color: red !important;
 }
 
 #navbarNav {
