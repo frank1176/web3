@@ -122,7 +122,7 @@
 
                 <!-- Price -->
                 <p class="text-start text-md-center">
-                  <strong>$17.99</strong>
+                  <strong>RM17.99</strong>
                 </p>
                 <!-- Price -->
               </div>
@@ -188,7 +188,7 @@
 
                 <!-- Price -->
                 <p class="text-start text-md-center">
-                  <strong>$17.99</strong>
+                  <strong>RM17.99</strong>
                 </p>
                 <!-- Price -->
               </div>
@@ -222,7 +222,7 @@
           <div class="card-header py-3">
             <h5 class="mb-0">Total</h5>
           </div>
-          <div class="card-body">
+          <div class="card-body bg-light">
             <ul class="list-group list-group-flush">
               <li
                 class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-0">
