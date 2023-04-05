@@ -91,6 +91,7 @@
     <Content Include="css\Home.css" />
     <Content Include="css\navbar.css" />
     <Content Include="css\Payment.js" />
+    <Content Include="css\Track.css" />
     <Content Include="Web.config" />
     <Content Include="Home.aspx" />
     <Content Include="Menu.aspx" />
