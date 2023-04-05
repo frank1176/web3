@@ -16,9 +16,10 @@
       <meta name="description" content="">
       <meta name="author" content="">
       <!-- bootstrap css -->
-      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-      <!-- style css -->
+      
+      <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> -->
       <link rel="stylesheet" type="text/css" href="css/style.css">
+	
       <!-- Responsive-->
       
    </head>
@@ -45,13 +46,13 @@
                      
                         <div class="col">
                            <div class="service_box">
-                              <div class="breakfast_img"><img src="asset/slide1.jpg"></div>
+                              <div class="breakfast_img"></div>
                            </div>
                            <h4 class="breakfast_text">3-pc Arabian Spice Crunch Combo</h4>
                         </div>
                         <div class="col">
                            <div class="service_box">
-                              <div class="breakfast_img"><img src="images/coffee-img.png"></div>
+                              <div class="breakfast_img"><img src="asset/slide1.jpg"></div>
                            </div>
                            <h4 class="breakfast_text">2-pc Arabian Spice Crunch Combo</h4>
                         </div>

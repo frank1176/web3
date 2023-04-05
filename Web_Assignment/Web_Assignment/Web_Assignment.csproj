@@ -79,26 +79,23 @@
     <Content Include="asset\2pc_arabian_spice_crunch_coleslaw.jpg" />
     <Content Include="asset\3pc_arabian_spice_crunch_coleslaw.jpg" />
     <Content Include="asset\6pc_bucket_kongsi_with_spicy_nuggets.jpg" />
-    <Content Include="asset\cash.png" />
     <Content Include="asset\slide4.jpg" />
     <Content Include="asset\arabian_spice_crunch_box_meal_coleslaw.jpg" />
     <Content Include="asset\firechicken.png" />
     <Content Include="asset\slide1.jpg" />
     <Content Include="asset\slide2.jpg" />
     <Content Include="asset\slide3.jpg" />
-    <Content Include="asset\tng.png" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\style.css" />
     <Content Include="css\Dashboard.css" />
     <Content Include="css\Home.css" />
     <Content Include="css\navbar.css" />
-    <Content Include="css\Payment.js" />
-    <Content Include="css\Track.css" />
     <Content Include="Web.config" />
     <Content Include="Home.aspx" />
     <Content Include="Menu.aspx" />
     <Content Include="Cart.aspx" />
     <Content Include="Product.aspx" />
     <Content Include="Delivery.aspx" />
-    <Content Include="CheckOut.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Admin\admin.Master.cs">
@@ -185,13 +182,6 @@
     </Compile>
     <Compile Include="Delivery.aspx.designer.cs">
       <DependentUpon>Delivery.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="CheckOut.aspx.cs">
-      <DependentUpon>CheckOut.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="CheckOut.aspx.designer.cs">
-      <DependentUpon>CheckOut.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
