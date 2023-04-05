@@ -61,8 +61,8 @@
                                             <i class="bi bi-bag-plus"></i><span class="d-none d-sm-inline">Add Product</span></a>
                                     </li>
                                     <li>
-                                        <a href="ManageProduct.aspx" class="nav-link px-0"> 
-                                            <i class="bi bi-shop"></i><span class="d-none d-sm-inline">Manage Product</span></a>
+                                        <a href="UpdateProduct.aspx" class="nav-link px-0"> 
+                                            <i class="bi bi-shop"></i><span class="d-none d-sm-inline">Update Product</span></a>
                                     </li>
                                     <li>
                                         <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span></a>
