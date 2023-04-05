@@ -239,7 +239,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-body ">
-                <div class="text-right"> <i class="fa fa-close close" data-dismiss="modal"></i> </div>
+                <div class="text-right">  <button type="button" class="btn-close" data-bs-dismiss="modal" onclick="document.location='Home.aspx'"></button> </div>
                 
                 <div class="px-4 py-5">
 
